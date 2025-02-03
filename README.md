@@ -1,2 +1,2 @@
 # qa_cv
-Landing page for CV of QA engineer
+Landing page for the CV of the QA engineer
