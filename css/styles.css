@@ -148,6 +148,7 @@ ol{
 /*Main content*/
 
 .my-projects-title,
+.skills-title,
 .work-experience-title,
 .my-education-title {
     color: #000;
@@ -233,19 +234,22 @@ ol{
     margin-bottom: 8px;
 }
 
-.work-experience-duties-list {
+.work-experience-duties-list,
+.skills-list {
     padding-left: 16px;
     margin-bottom: 8px;
 }
 
-.work-experience-duties-item {
+.work-experience-duties-item,
+.skills-list-item {
     color: #595959;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
 }
 
-.work-experience-container {
+.work-experience-container,
+.skills-container {
     margin-bottom: 12px;
 }
 
