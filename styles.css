@@ -1,126 +1,297 @@
-/* Remove margin between the top green block and the right grey block */
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  h2, h3, h4, li, p {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
+    background: #F6F6FA;
+    padding: 40px 40px 40px 40px;
+    font-family: "Montserrat", sans-serif;
 }
-  
-/* Header Block */
-header {
-    background-color: lightgreen;
-    height: 100px;
+
+ul, 
+ol{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wrapper {
+    background: #ffffff;
     display: flex;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .header-content {
+    flex-direction: row-reverse;
+    max-width: 1200px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .name-position {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 0;
-    gap: 20px;
-  }
+    margin: 0 auto;
+}
 
-  .name {
-    font-size: 34px;
-    font-weight: bold;
-    margin: 0;
-  }
-  
-  .position {
-    font-size: 24px;
-    color: rgb(0, 0, 0);
-    margin: 0;
-  }
-  
-  /* Main Content */
-  .main-content {
+.my-info {
+    background: rgb(208, 242, 227) ;
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
     display: flex;
-    margin-top: 0px;
-  }
-  
-  /* Left Column */
-  .left-column {
-    width: 33.33%;
-    padding: 20px;
-    background-color: #ffffff;
-  }
+    margin: 0 auto;
+}
 
-  .left-column .block {
-    margin-bottom: 20px;
-  }
-  
-  .left-column h3 {
-    font-size: 24px;
-    margin-bottom: 5px;
-  }
-  
-  .left-column p {
-    font-size: 18px;
-  }
-  
-  /* Right column (2/3 width with grey background) */
-  .right-column {
-    width: 67%;
-    background-color: #e7e7e7; /* Light grey */
-    padding: 20px; /* Add padding around text */
-    margin-left: 20px; /* Add margin to the left side for text */
-  }
-  
-  .right-column .block {
-    margin-bottom: 20px;
-  }
-  
-  .right-column h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .right-column li {
-    font-size: 18px;
-  }
+.main-container {
+    padding: 40px 80px 40px 80px;
+    box-sizing: border-box;
+}
 
-  /* Work experience section */
-  .experience {
-    margin-bottom: 30px;
-  }
-  
-  .experience h3 {
-    font-size: 20px;
-    margin-bottom: 5px;
-  }
-  
-  .experience p {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .experience h4 {
-    font-size: 18px;
-    margin-top: 10px;
-    margin-left: 20px;
-  }
-  
-  .experience ul {
-    list-style-type: disc;
-    padding-left: 20px;
-    margin-left: 20px;
-  }
-  
-  .experience li {
-    font-size: 18px;
-    margin-bottom: 5px;
-  }  
+/* My-info */
+
+.my-info-content {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.my-info-name {
+    color: #000;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.my-info-profession {
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.my-info-description {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+/*Sidebar*/
+.sidebar {
+    background: #e5e7ea; 
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.sidebar-content {
+    padding-top:  20px;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+.contacts-title {
+    color: #161D2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.contacts-type {
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 8px;
+}
+
+.contacts-link {
+    color: #2979FF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+    margin-right: 8px;
+}
+
+.contacts-messenger {
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 8px;
+}
+.contacts-item {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.contacts-container {
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    margin-bottom: 40px;
+}
+
+.skills-title {
+    color: #161D2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.skills-list {
+    padding-left: 16px;
+}
+
+.skills-list-item {
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/*Main content*/
+
+.my-projects-title,
+.work-experience-title,
+.my-education-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-projects-item {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.my-projects-list {
+    padding-left: 16px;
+}
+
+.my-project-item-link {
+    color: #005fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.my-project-item-tech {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.my-projects-container {
+    margin-bottom: 40px;
+}
+
+.work-experience-company {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.work-experience-company-link,
+.my-education-link {
+    color: #6d9bf5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    /* text-decoration-line: underline; */
+}
+
+.company-name,
+.my-education-name {
+    color: #6d9bf5;
+}
+
+.work-experience-period,
+.my-education-period {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 15px;
+    margin-bottom: 8px;
+}
+
+.work-experience-divider,
+.my-education-divider {
+    color: #000;
+}
+
+.work-experience-duties-title {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.work-experience-duties-list {
+    padding-left: 16px;
+    margin-bottom: 8px;
+}
+
+.work-experience-duties-item {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.work-experience-container {
+    margin-bottom: 12px;
+}
+
+.my-education-place {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-education-speciality  {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-education-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+@media (max-width: 705px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .my-info {
+        order: 1; /* Ensures .my-info is on top */
+        width: 100%;
+    }
+
+    .sidebar {
+        order: 2; /* Sidebar comes next */
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .main-container {
+        order: 3; /* Main content at the bottom */
+        width: 100%;
+        padding-top:  20px;
+        padding-left: 40px;
+    }
+}
